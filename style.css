@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Varta', sans-serif; */
+body{
+    
+}
+nav{
+    border-right: 5px solid #0966C2;
+    width: 30%;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav a{
+    color:#0966C2;
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+    padding: 0.5em 1rem;
+}
+
+nav a:focus{
+    color:#0966C2;
+}
+nav a:hover{
+    color: #fff;
+    background-color: #0966C2;
+    
+}
+
+nav a:hover lord-icon{
+    color: #f3ba64;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: 'Varta', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+  }
